@@ -1,44 +1,85 @@
 body{
     background-color: turquoise;
-    text-align: center;
+
+    font-size: large;
 }
+
 
 body #description{
     text-align: justify;
+    padding:10px;
 }
 
 body img{
     border-radius: 6px;
+    text-align: center;
+    display: block;
+    margin: auto;
 }
-
 
 .container{
     background-color: #eeeeee;
-    border-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     border-color: rgb(77, 71, 71);
+    border-top-color: transparent;
     border-style:solid;
     border-width: 2px;
+    margin-top: 0px;
     margin-bottom: 30px;
+}
+
+body h1{
+    color:white;
+    background-color: black;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    text-align: center;
+
 }
 
 .container .ingredients li{
     text-decoration: none ;
-    color: blue;
     margin-right: 20px;
-    
+   
 }
 
-.container ul,
-.container ol{
+.container ul{
     list-style: none;
 }
 
 .ingredients{
-    margin: auto;
+    padding: 10px;
+    font-size: 18px;
 }
 
+.elab-box{
+    margin:30px;
+    margin-top:0px;
+    background-color: white;
+    padding: 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-color: #b7b3b3;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.container h2{
+    margin: 30px;
+    margin-bottom: 0px;
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
 
 
+}
 
 .Btn{ 
     margin-top:15px;
@@ -48,6 +89,9 @@ body img{
     text-decoration: none;
     font-size: 20px;
     border-radius:12px;
+    display: block;
+    margin:auto;
+    text-align: center;
 }
 
 .Btn:hover{
