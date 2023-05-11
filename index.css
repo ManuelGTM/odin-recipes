@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(111, 240, 227);
+    color: rgb(0, 0, 0);
+    font-family: verdana;
+}
+
+.title, 
+.food-title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+   
+}
+
+.imagen{
+    display:block;
+    margin:auto;
+    border-radius: 8px;
+}
+
+.container{
+    background-color: #eee;
+    display:block;
+    margin-left: 27%;
+    margin-right: 27%;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.container h2,
+.container h1
+{
+    background-color: black;
+    color:white;
+    padding: 8px;
+    margin-bottom: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+
+.list ul li {
+    list-style: none;
+    text-align: center;
+    margin-right: 15px;
+    padding-bottom: 10px;
+    padding-top: none;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.list a:hover{
+    text-decoration: underline;
+}
+
