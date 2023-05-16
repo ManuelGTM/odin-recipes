@@ -12,4 +12,4 @@ In this project i want to demonstrate this skills:
 - How to make lists
 - How to make relative and absolute links
 - How to put an image in the web page
-
+- How to style my page 
